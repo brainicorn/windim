@@ -1,0 +1,14 @@
+{
+  "name": "Window Dimensions",
+  "description": "Displays real-time window dimensions (width × height) in the center of the window while you resize it. Works seamlessly on both Wayland and X11. Perfect for designers, developers, and anyone who needs precise window sizing.",
+  "uuid": "windim@brainicorn.com",
+  "shell-version": [
+    "45",
+    "46",
+    "47",
+    "48",
+    "49"
+  ],
+  "url": "https://github.com/brainicorn/windim",
+  "version": 1
+}
