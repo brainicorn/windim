@@ -109,7 +109,16 @@ export default class WindowDimensionsExtension extends Extension {
                op === Meta.GrabOp.RESIZING_NE ||
                op === Meta.GrabOp.RESIZING_NW ||
                op === Meta.GrabOp.RESIZING_SE ||
-               op === Meta.GrabOp.RESIZING_SW;
+               op === Meta.GrabOp.RESIZING_SW ||
+               op === Meta.GrabOp.KEYBOARD_RESIZING_UNKNOWN ||
+               op === Meta.GrabOp.KEYBOARD_RESIZING_N ||
+               op === Meta.GrabOp.KEYBOARD_RESIZING_S ||
+               op === Meta.GrabOp.KEYBOARD_RESIZING_W ||
+               op === Meta.GrabOp.KEYBOARD_RESIZING_E ||
+               op === Meta.GrabOp.KEYBOARD_RESIZING_NW ||
+               op === Meta.GrabOp.KEYBOARD_RESIZING_NE ||
+               op === Meta.GrabOp.KEYBOARD_RESIZING_SW ||
+               op === Meta.GrabOp.KEYBOARD_RESIZING_SE;
     }
 
     _updateDimensions(window) {
