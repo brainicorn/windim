@@ -25,9 +25,7 @@ export default class WindowDimensionsExtension extends Extension {
         });
 
         // Add label to the UI
-        Main.layoutManager.addChrome(this._label, {
-            affectsInputRegion: false
-        });
+        Main.layoutManager.addChrome(this._label);
 
         // Connect to window grab events
         let display = global.display;
